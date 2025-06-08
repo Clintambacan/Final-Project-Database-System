@@ -1,0 +1,27 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #f0f2f5, #dfe9f3);
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+.status-cleared {
+    color: green;
+    font-weight: bold;
+}
+.status-pending {
+    color: red;
+    font-weight: bold;
+}
